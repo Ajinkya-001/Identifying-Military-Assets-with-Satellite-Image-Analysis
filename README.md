@@ -37,7 +37,7 @@ Label Format Conversion: Ensure the label files are converted to the correct for
 
 The repository includes utility scripts (scripts/split_dataset.py, scripts/convert_labels.py) to help automate this process. Please refer to the comments within those scripts for usage instructions.
 
-###After preparation, your dataset directory should be structured as follows:
+### After preparation, your dataset directory should be structured as follows:
 
 <img width="441" height="284" alt="image" src="https://github.com/user-attachments/assets/59201f2e-25c3-40ae-a1f4-b556d4414100" />
 
@@ -154,6 +154,7 @@ FastAPI – API framework
 Ajinkya Patil
 
 LinkedIn : https://www.linkedin.com/in/ajinkya-patil-728a19313/
+
 
 
 
