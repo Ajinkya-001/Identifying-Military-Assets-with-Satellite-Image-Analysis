@@ -24,6 +24,24 @@ Integrated with FastAPI for API deployment
 
 Designed for potential deployment in defense-tech R&D and advanced geospatial intelligence systems
 
+## Dataset Preparation
+
+The model was trained on a custom dataset of satellite imagery. The raw dataset is available here - https://drive.google.com/drive/folders/1JhbzmCQK6aqwd33azx9k4zvuqr7FXZ_A?usp=sharing
+
+### Important Note: 
+The provided dataset contains raw images and their corresponding label files. To use it for training this YOLOv8 model, you must perform the following preparation steps:
+
+Dataset Splitting: You need to split the data into training, validation, and test sets (e.g., 70%/20%/10%). This can be done using scripts from the scripts/ directory.
+
+Label Format Conversion: Ensure the label files are converted to the correct format expected by YOLOv8 (typically .txt files with one file per image, containing class_id center_x center_y width height normalized to 0-1).
+
+The repository includes utility scripts (scripts/split_dataset.py, scripts/convert_labels.py) to help automate this process. Please refer to the comments within those scripts for usage instructions.
+
+###After preparation, your dataset directory should be structured as follows:
+
+<img width="441" height="284" alt="image" src="https://github.com/user-attachments/assets/59201f2e-25c3-40ae-a1f4-b556d4414100" />
+
+
 ## Directory Structure
 
 <img width="724" height="259" alt="image" src="https://github.com/user-attachments/assets/fb8504aa-b404-49c4-8582-34d4674ded52" />
@@ -136,6 +154,7 @@ FastAPI – API framework
 Ajinkya Patil
 
 LinkedIn : https://www.linkedin.com/in/ajinkya-patil-728a19313/
+
 
 
 
