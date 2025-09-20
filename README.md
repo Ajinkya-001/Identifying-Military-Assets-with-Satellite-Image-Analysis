@@ -6,4 +6,5 @@
 ![Docker](https://img.shields.io/badge/Docker-24.0-blue?logo=docker&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-# Identifying Military Assets with Satellite Image Analysis
+## Identifying Military Assets with Satellite Image Analysis
+
