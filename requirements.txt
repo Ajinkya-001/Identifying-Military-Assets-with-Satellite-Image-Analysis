@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+torch
+ultralytics
+opencv-python
+mlflow
+scikit-learn
+pytest

@@ -1,0 +1,14 @@
+train: /home/ajinkya/mili/Dataset/train/images
+val: /home/ajinkya/mili/Dataset/val/images
+test: /home/ajinkya/mili/Dataset/test/images
+
+nc: 5
+names:
+  0: fighter_jet
+  1: tank
+  2: naval_ship
+  3: radar
+  4: military_truck
+
+# Class weights (normalize ~1.0 avg, bump rare classes)
+class_weights: [1.0, 2.0, 1.2, 1.0, 1.5]
