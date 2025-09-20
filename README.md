@@ -61,10 +61,6 @@ Detected bounding boxes can be overlaid on images for quick analysis.
 <img width="959" height="898" alt="image" src="https://github.com/user-attachments/assets/2b946939-b53f-4e30-99b5-3fbe7b9d288d" />
 
 
-
-
-
-
 ## Future Enhancements
 
 Real-time streaming satellite data processing
@@ -73,7 +69,7 @@ Integration with geospatial visualization dashboards
 
 Multi-class military asset classification
 
-## ACknowledgements
+## Acknowledgements
 
 YOLOv8-Object detection framework
 
@@ -84,7 +80,9 @@ FastAPI – API framework
 ## Author
 
 Ajinkya Patil
+
 LinkedIn : https://www.linkedin.com/in/ajinkya-patil-728a19313/
+
 
 
 
