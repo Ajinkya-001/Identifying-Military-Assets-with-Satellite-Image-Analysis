@@ -1,0 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.1-red?logo=pytorch&logoColor=white)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-orange)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.101-green?logo=fastapi&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-2.9-blue)
+![Docker](https://img.shields.io/badge/Docker-24.0-blue?logo=docker&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
