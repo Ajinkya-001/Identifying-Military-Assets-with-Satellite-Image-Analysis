@@ -24,6 +24,18 @@ Integrated with FastAPI for API deployment
 
 Designed for potential deployment in defense-tech R&D and advanced geospatial intelligence systems
 
+### Pipeline Overview
+
+1. **Data Preprocessing** → Image resizing, normalization, annotation.  
+2. **Model Training** → YOLOv8 fine-tuned on satellite dataset.  
+3. **Evaluation** → Precision (85.8%), Recall (44.9%), mAP@50 = 50.9%.  
+4. **Experiment Tracking** → MLflow logs for metrics & hyperparams.  
+5. **API Serving** → FastAPI provides `/predict` endpoint.  
+6. **Deployment** → Containerized with Docker.  
+7. **Visualization** → Results mapped with bounding boxes + geospatial view.
+
+
+
 ## Dataset Preparation
 
 The model was trained on a custom dataset of satellite imagery. The raw dataset is available here - https://drive.google.com/drive/folders/1JhbzmCQK6aqwd33azx9k4zvuqr7FXZ_A?usp=sharing
@@ -154,6 +166,7 @@ FastAPI – API framework
 Ajinkya Patil
 
 LinkedIn : https://www.linkedin.com/in/ajinkya-patil-728a19313/
+
 
 
 
