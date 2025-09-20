@@ -61,6 +61,60 @@ Detected bounding boxes can be overlaid on images for quick analysis.
 <img width="959" height="898" alt="image" src="https://github.com/user-attachments/assets/2b946939-b53f-4e30-99b5-3fbe7b9d288d" />
 
 
+## Training Results
+
+<img width="2400" height="1200" alt="image" src="https://github.com/user-attachments/assets/7006120d-15e8-4c1d-955e-8df8a26c0ab5" />
+
+
+## Results (Final Epoch)
+
+### Training Losses
+
+Box loss: 1.434
+
+Cls loss: 0.842
+
+DFL loss: 0.916
+
+### Validation Losses
+
+Box loss: 1.466
+
+Cls loss: 0.867
+
+DFL loss: 0.920
+
+### Metrics 
+
+Precision (B): 85.8%
+
+Recall (B): 44.9%
+
+mAP@50 (B): 50.9%
+
+mAP@50-95 (B): 28.6%
+
+### Confusion Matrix
+
+The normalized confusion matrix below shows class-wise prediction accuracy and misclassifications:
+
+
+<img width="3000" height="2250" alt="image" src="https://github.com/user-attachments/assets/f2445925-c748-4438-aa70-5b8b4211470b" />
+
+### interpretation of your matrix
+
+Fighter jet: 64% correctly classified, but often confused with background.
+
+Radar: strongest detection (74% correct).
+
+Tank: seems underrepresented (little data or poor detection).
+
+Military truck: confused with background often.
+
+Background: relatively well recognized (71%), but sometimes objects are misclassified as background.
+
+
+
 ## Future Enhancements
 
 Real-time streaming satellite data processing
@@ -82,6 +136,7 @@ FastAPI – API framework
 Ajinkya Patil
 
 LinkedIn : https://www.linkedin.com/in/ajinkya-patil-728a19313/
+
 
 
 
